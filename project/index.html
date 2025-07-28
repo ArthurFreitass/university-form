@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zeta University</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
+    <link href=" https://fonts.cdnfonts.com/css/agrish " rel="stylesheet" />
   </head>
   <body>
     <!--Estrutura-->
@@ -24,7 +21,7 @@
                 id="login"
                 name="loginFast"
                 type="text"
-                placeholder="Login"
+                placeholder="Nome"
                 required
               />
             </label>
@@ -41,25 +38,153 @@
           </form>
         </div>
       </header>
-      <div class="forms">
-        <form id="form" method="get">
-          <h1>Forms</h1>
-          <div id="container-form">
-            <label for="name"
-              ><input type="text" id="name" placeholder="Nome" required
-            /></label>
-            <label for="lastname"
-              ><input
-                type="text"
-                id="lastname"
-                placeholder="Sobrenome"
+      <div class="container-form">
+        <div class="container-father">
+          <form class="form" method="get">
+            <h1>Forms</h1>
+            <div class="container-input">
+              <input type="text" required placeholder="Nome:" />
+              <input type="text" required placeholder="Sobrenome:" />
+            </div>
+            <div class="container-input" style="margin-top: 15px">
+              <input
+                type="email"
+                autocomplete="on"
+                name="email"
                 required
-            /></label>
-          </div>
-        </form>
+                placeholder="E-mail:"
+              />
+              <label for="state">Estado</label>
+              <select name="state" id="state">
+                <option value="mg">MG</option>
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="rs">RS</option>
+                <option value="ama">AMA</option>
+              </select>
+            </div>
+            <hr />
+            <div id="preference">
+              <div>
+                <p style="margin-bottom: 10px">Qual a sua área preferida?</p>
+
+                <label for="preference1">
+                  <input
+                    type="radio"
+                    name="areaUser"
+                    id="preference1"
+                    value="engenharia"
+                  />
+                  Engenharia de Software</label
+                >
+
+                <label for="preference2">
+                  <input
+                    type="radio"
+                    name="areaUser"
+                    id="preference2"
+                    value="medicina"
+                  />
+                  Medicina</label
+                >
+
+                <label for="preference3">
+                  <input
+                    type="radio"
+                    name="areaUser"
+                    id="preference3"
+                    value="tecnologia"
+                  />
+                  Tecnologias avançadas</label
+                >
+              </div>
+              <div>
+                <p style="margin-bottom: 10px">
+                  Qual conteúdo você têm mais vontade de aprender?
+                </p>
+                <label for="content1">
+                  <input
+                    type="checkbox"
+                    name="content"
+                    id="content1"
+                    value="calculo"
+                  />
+                  Cálculo</label
+                >
+
+                <label for="content2">
+                  <input
+                    type="checkbox"
+                    name="content"
+                    id="content2"
+                    value="cure"
+                  />
+                  Tratamentos para pessoas</label
+                >
+
+                <label for="content3">
+                  <input
+                    type="checkbox"
+                    name="content"
+                    id="content3"
+                    value="html"
+                  />
+                  HTML</label
+                >
+
+                <label for="content4">
+                  <input
+                    type="checkbox"
+                    name="content"
+                    id="content4"
+                    value="css"
+                  />
+                  CSS</label
+                >
+
+                <label for="content5">
+                  <input
+                    type="checkbox"
+                    name="content"
+                    id="content5"
+                    value="bi"
+                  />
+                  Power BI</label
+                >
+              </div>
+            </div>
+            <hr />
+            <div id="avaliation">
+              <span style="margin-right: 20px"
+                >Como você avalia a Zeta University?</span
+              >
+              <label for="avaliation">
+                <input type="radio" name="value" value="1" id="avaliation" /> 1
+                <input type="radio" name="value" value="2" id="avaliation" /> 2
+                <input type="radio" name="value" value="3" id="avaliation" /> 3
+                <input type="radio" name="value" value="4" id="avaliation" /> 4
+                <input type="radio" name="value" value="5" id="avaliation" /> 5
+                <input type="radio" name="value" value="6" id="avaliation" /> 6
+                <input type="radio" name="value" value="7" id="avaliation" /> 7
+                <input type="radio" name="value" value="8" id="avaliation" /> 8
+                <input type="radio" name="value" value="9" id="avaliation" /> 9
+                <input type="radio" name="value" value="10" id="avaliation" />
+                10
+              </label>
+            </div>
+            <div id="terms">
+              <label for="term">
+                Você concorda com as informações acima?
+                <input required type="checkbox" name="terms" id="term" />
+              </label>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="container-emblem">
+          <img src="img/zeta.png" alt="emblem-university" />
+        </div>
       </div>
-      <!--Logo-->
-      <!--Direitos-->
     </div>
   </body>
 </html>
