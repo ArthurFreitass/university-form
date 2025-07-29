@@ -160,6 +160,10 @@ hr {
   margin-right: 4px;
 }
 
+#container-avaliation {
+  text-align: center;
+}
+
 #avaliation {
   font-size: 16px;
 }

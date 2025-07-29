@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zeta University</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsividade.css" />
     <link href=" https://fonts.cdnfonts.com/css/agrish " rel="stylesheet" />
   </head>
   <body>
@@ -21,7 +22,7 @@
                 id="login"
                 name="loginFast"
                 type="text"
-                placeholder="Nome"
+                placeholder="Nome:"
                 required
               />
             </label>
@@ -30,7 +31,7 @@
                 type="password"
                 name="passw"
                 id="password"
-                placeholder="Senha"
+                placeholder="Senha:"
                 required
               />
             </label>
@@ -98,7 +99,7 @@
                   Tecnologias avançadas</label
                 >
               </div>
-              <div>
+              <div id="contents">
                 <p style="margin-bottom: 10px">
                   Qual conteúdo você têm mais vontade de aprender?
                 </p>
@@ -154,23 +155,40 @@
               </div>
             </div>
             <hr />
-            <div id="avaliation">
+            <div id="container-avaliation">
               <span style="margin-right: 20px"
                 >Como você avalia a Zeta University?</span
               >
-              <label for="avaliation">
-                <input type="radio" name="value" value="1" id="avaliation" /> 1
-                <input type="radio" name="value" value="2" id="avaliation" /> 2
-                <input type="radio" name="value" value="3" id="avaliation" /> 3
-                <input type="radio" name="value" value="4" id="avaliation" /> 4
-                <input type="radio" name="value" value="5" id="avaliation" /> 5
-                <input type="radio" name="value" value="6" id="avaliation" /> 6
-                <input type="radio" name="value" value="7" id="avaliation" /> 7
-                <input type="radio" name="value" value="8" id="avaliation" /> 8
-                <input type="radio" name="value" value="9" id="avaliation" /> 9
-                <input type="radio" name="value" value="10" id="avaliation" />
-                10
-              </label>
+              <div style="margin-top: 0.6em">
+                <label for="avaliation">
+                  <input type="radio" name="value" value="1" id="avaliation" />
+                  1
+                  <input type="radio" name="value" value="2" id="avaliation" />
+                  2
+                  <input type="radio" name="value" value="3" id="avaliation" />
+                  3
+                  <input type="radio" name="value" value="4" id="avaliation" />
+                  4
+                  <input type="radio" name="value" value="5" id="avaliation" />
+                  5
+                  <input type="radio" name="value" value="6" id="avaliation" />
+                  6
+                  <input type="radio" name="value" value="7" id="avaliation" />
+                  7
+                  <input type="radio" name="value" value="8" id="avaliation" />
+                  8
+                  <input type="radio" name="value" value="9" id="avaliation" />
+                  9
+                  <input
+                    checked
+                    type="radio"
+                    name="value"
+                    value="10"
+                    id="avaliation"
+                  />
+                  10
+                </label>
+              </div>
             </div>
             <div class="coments">
               <p style="margin-bottom: 10px">Deixe seu comentário:</p>
@@ -189,6 +207,7 @@
           <img src="img/zeta.png" alt="emblem-university" />
         </div>
       </div>
+      <footer>&copy; Todos os direitos reservados.</footer>
     </div>
   </body>
 </html>

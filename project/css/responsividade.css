@@ -1,0 +1,126 @@
+@media screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0.8em;
+    gap: 1.1em;
+    width: 100%;
+  }
+
+  .header h1 {
+    width: 60%;
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+  }
+
+  .header img {
+    width: 30%;
+    max-width: 20em;
+    border-radius: 5px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #header-form {
+    padding: 0.2em 0.4em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #header-form input {
+    width: 100%;
+    max-width: 12.5em;
+    height: auto;
+  }
+
+  .container-form {
+    margin-top: 1.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-father {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form h1 {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    margin-bottom: 1.1em;
+  }
+
+  .form .container-input {
+    width: 90%;
+    max-width: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-input input {
+    max-width: 12em;
+    height: auto;
+    padding: 1.2em;
+    background-color: #e29dc8;
+  }
+
+  .container-input select {
+    max-width: 9em;
+    padding: 0.8em;
+  }
+
+  #preference {
+    width: 100%;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contents {
+    width: 90%;
+    padding: 0.3em 1.2em;
+    margin-top: 1.1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #preference p {
+    line-height: 1.1rem;
+  }
+
+  #container-avaliation {
+    text-align: center;
+  }
+
+  textarea {
+    width: 18em;
+    height: 5em;
+    border: none;
+    border-radius: 0.2em;
+  }
+
+  .container-emblem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+
+  .container-emblem img {
+    max-width: 20em;
+    height: auto;
+  }
+}
